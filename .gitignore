@@ -2,7 +2,7 @@
 *.py[co]
 .DS_Store
 __pycache__
-settings.py
+out
 
 # Packages
 *.egg
@@ -11,6 +11,7 @@ dist
 build
 eggs
 parts
+private_files
 bin
 var
 sdist
@@ -29,3 +30,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Textmate (a Mac editor) meta files
+._*
